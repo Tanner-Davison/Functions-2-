@@ -57,7 +57,7 @@ const greeting = (firstName, lastName, callback)=>{
 }
 
 // INVOKE 'GREETING FUNCTION' HERE
-greeting(`Tanner`,`Davison`, function(fullName){
+greeting(`Tanner`,`Davison`, (fullName)=>{
     console.log(`Hello My Full Name Is ${fullName} `)
 })
 
